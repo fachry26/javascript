@@ -7,3 +7,6 @@
 nav{background-color: black;color: white;display: flex; justify-content: flex-end;}
 nav ul{display: flex;}
 nav ul li{margin: 10px;}
+
+.hasil_hasil {display: flex; justify-content: center; margin-top: 10px;}
+.hasil_hasil ul li{list-style: none;display: block}

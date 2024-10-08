@@ -14,7 +14,8 @@
         }
     </style>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -27,14 +28,66 @@
             </ul>
         </nav>
     </div>
-<br> <br>
-<li style="display: flex;justify-content: center; list-style: none;">
-    <div class="input_name">
-        <label for="nama">Nama</label>
-        <input name="nama" type="text" />
-    </div>
-</li>
+    <br> <br>
+    <li style="display: flex;justify-content: center; list-style: none;">
+        <div class="input_name">
+            <label for="nama">Nama</label>
+            <input name="nama" type="text" />
+        </div>
+    </li>
 
+    <div class="hasil_hasil">
+        <ul>
+            <li>
+                <p2> Hasil: </p2>
+            </li>
+            <li>
+                <div id="hasil"></div>
+            </li>
+            <li>
+                <div id="hasil2"></div>
+            </li>
+            <li>
+                <div id="hasil3"></div>
+            </li>
+
+            <li>
+                <div id="tambahan"></div>
+            </li>
+            <li>
+                <div id="kali"></div>
+                <div id="kali2"></div>
+                <div id="kali3"></div>
+                <div id="mobil"></div>
+            </li>
+        </ul>
+    </div>
+
+
+    <script> document.getElementById("hasil").innerHTML = kalimat;
+
+
+        //aritmatika
+        var p1 = 10; var p2 = 5;
+
+        var tambah = p1 + p2;
+        var kurang = p1 - p2;
+
+        //document.getElementById("tambahan").innerHTML = tambah;
+
+        //function
+
+        function perkalian(a, b) { return a * b };
+
+        document.getElementById("kali").innerHTML = perkalian(7, 20);
+        document.getElementById("kali2").innerHTML = perkalian(p1, p2);
+        //document.getElementById("kali3").innerHTML = perkalian(kolor, celana);
+
+        
+
+        mobli()
+
+    </script>
 </body>
 
 </html>
