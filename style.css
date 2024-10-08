@@ -1,0 +1,9 @@
+.input_name{
+    background-color: bisque; display:flex; width:fit-content;align-items: center; border-radius: 10px;
+}
+.input_name input{ background-color: blanchedalmond;border-radius: 10px;display: flex;justify-content: flex-end;}
+
+
+nav{background-color: black;color: white;display: flex; justify-content: flex-end;}
+nav ul{display: flex;}
+nav ul li{margin: 10px;}
